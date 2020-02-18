@@ -1,4 +1,5 @@
-
+let myvariable=document.querySelector ('html');
+alert('Hey le site xxxvidsxxx est trop bien. Viens dessus stp please');
 
 const button = document.querySelector('button');
 
@@ -15,10 +16,10 @@ let myImage = document.querySelector('img');
 
 myImage.addEventListener('click', function() {
     let mySrc = myImage.getAttribute('src');
-    if (mySrc === 'firefox.png') {
-      myImage.setAttribute('src', 'firefox2.png');
+    if (mySrc === 'images/firefox.png') {
+      myImage.setAttribute('src', 'images/firefox2.png');
     } else {
-      myImage.setAttribute('src', 'firefox.png');
+      myImage.setAttribute('src', 'images/firefox.png');
     }
 });
 
