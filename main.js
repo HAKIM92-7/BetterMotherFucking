@@ -1,5 +1,5 @@
-let myvariable=document.querySelector ('html');
-alert('Hey le site xxxvidsxxx est trop bien. Viens dessus stp please');
+
+
 
 const button = document.querySelector('button');
 
@@ -47,6 +47,15 @@ function setUserName() {
   });
 
 
+let myvariable=document.querySelector ('html');
+function visitwebsite()
+{  let Mychoice = prompt ('voulez vous visiter le fameux site xxxvidsxxx? o/n'); 
+   localStorage.setItem('reponse',Mychoice);
 
 
+}
+visitwebsite();
+let choice=localStorage.getItem('reponse');
 
+
+if (choice ==='o') { window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ"); } 
