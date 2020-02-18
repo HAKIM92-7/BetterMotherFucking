@@ -1,7 +1,7 @@
 
 
 
-const button = document.querySelector('button');
+const button = document.getElementById('button1');
 
 button.addEventListener('click', event => {
   button.innerHTML = `Nombre de clics : ${event.detail}`;
@@ -25,7 +25,7 @@ myImage.addEventListener('click', function() {
 
 
 
-let myButton = document.querySelector('button');    //referencer sur le bouton crée
+let myButton = document.getElementById('button1');    //referencer sur le bouton crée
 let myHeading = document.querySelector('h1');      //referencer sur le titre de la page
 
 
@@ -59,3 +59,4 @@ let choice=localStorage.getItem('reponse');
 
 
 if (choice ==='o') { window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ"); } 
+
