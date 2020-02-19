@@ -1,19 +1,17 @@
 @font-face {
     font-family: 'ma_police';
     src: url('1942.ttf');
-    /* créer une police téléchargé depuis internet  */
+                                                          /*créer une police téléchargé depuis internet */ 
 }
-.imagefirefox
+.imagebeauty                               /*positionner la photo au centre*/
 {
-margin-left: 400px;
-float: left ;
+margin-left: 700px;
 
 
 }
 
 h1 {
-    color: indigo;
-    /*  mettre en forme le titre de la page     */
+    color: indigo;                                                           /*mettre en forme le titre du site */
     font-size: xx-large;
     text-align: center;
     border: 3px, black solid;
@@ -29,8 +27,7 @@ aside {
 
 nav {
     width: 400px;
-    height: 300px;
-    /* mettre en forme le bloc avec l'image de roue     */
+    height: 300px;                                                      /*mettre en forme le bloc avec la photo de roue*/    
     border: 3px black solid;
     overflow: scroll;
     padding: 1px;
@@ -44,66 +41,63 @@ nav {
 
 .section1 {
     width: 400px;
-    height: 1000px;
+    height: 1100px;
     border: 3px blue solid;
-    background-image: url("arriereplan.jpg");
-    /*  mettre en forme la section avec l'arrière plan bleu     */
+    background-image: url("images/arriereplan.jpg");                    /*mettre en forme la section avec l'arrière plan bleu  */  
     background-attachment: fixed;
     background-repeat: no-repeat;
     padding: 2px 2px;
     margin: auto;
+    
 }
 
 footer {
     width: 100%;
     height: 200 px;
-    background-color: grey;
-    /* le pied de page      */
+    background-color: grey;                                       /*le pied du site */    
     text-align: right;
     margin-top: 100px;
 }
 
 .derniertitre {
     color: black;
-    font-style: arial;
-    /*  le titre du pied de page     */
+    font-style: arial;                                          /*le titre du pied du site*/
     font-size: x-large;
     text-align: left;
 }
 
 .copyright {
     text-align: right;
-    /*  pied de page     */
+                                                                      /*pied de site */  
 }
 
 .email {
     text-align: left;
-    /*  pied de page      */
+                                                                /*pied de page*/     
 }
 
 .imageflottante {
     float: left;
-    /*  image de roue     */
+                                                                 /* image de roue*/   
 }
 
 .article1 {
     font-weight: bold;
     text-decoration: underline;
     color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    /*  mise en page de l'article1 contenu dans la section 1 */
+    font-family: Georgia, 'Times New Roman', Times, serif;       /*mise en forme de l'article1 contenu dans la section 1*/ 
     text-shadow: 2px 2px 4px blanchedalmond;
     font-size: x-large;
 }
 
 .imagetrump {
     margin-top: 20px;
-    /*  image de trump     */
+                                                                      /*photo de trump */   
 }
 
 a[title*="website"] {
     color: red;
-    /* le lien du site motherfucker initial      */
+                                                        /*le lien du site motherfucker initial*/
 }
 
 h3 {
@@ -111,38 +105,38 @@ h3 {
 }
 
 .article2 {
-    border: 3px black double;
-    width: 300px;
-    height:250 px;
-    /*article en haut a gauche       */
+    width:400px;
+    border: 3px black double;                               /*article en haut a gauche */     
     margin: 5px;
-    padding: 3px;
+    padding-top: 3px;
     box-shadow: 5px 5px 3px black;
+    text-align: justify;
+    height: 300px;
 }
 
 span {
     color: red;
-    /* le mot motherfucker */
+                                                                    /*le mot motherfucker*/
 }
 
 .troisiemetitre {
     color: rgb(233, 43, 46);
-    font-style: italic;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* titre de la deuxieme section en bas avec fond orangé */
-    text-align: center;
+    font-style: italic;                                                     /* titre de la section orangé*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    text-align:center;
+
 }
 
-.section2 {
+.section2 {/
     width: 90%;
     height: 200px;
     border: 3px red solid;
     background-color: sandybrown;
     box-shadow: 5px 5px 3px slateblue;
-    border-radius: 5px;
-    /* section en orangé */
+    border-radius: 5px;                                 /*section en orangé */
     text-align: left;
     text-decoration: wavy;
     margin-top: 30px;
     padding: 3px;
 }
+.button1 {margin: auto;}
