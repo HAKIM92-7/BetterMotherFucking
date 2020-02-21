@@ -52,12 +52,12 @@ function setUserName() {
 
 let myvariable=document.querySelector ('html');
 
-function visitwebsite()
+setTimeout(function visitwebsite()
 {  let Mychoice = prompt ('voulez vous visiter le fameux site xxxvidsxxx? o/n'); 
    localStorage.setItem('reponse',Mychoice);
                                                                                         //visiter le site ou non
 
-}
+},10000);
 visitwebsite();
 let choice=localStorage.getItem('reponse');
 
