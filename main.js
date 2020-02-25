@@ -48,7 +48,7 @@ function setUserName() {
 
 
 
-let mypage=document.querySelector('html');
+
 
 
 function visitwebsite()
@@ -61,12 +61,6 @@ visitwebsite();
 let choice=localStorage.getItem('reponse');
 
 if (choice ==='o') { window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ"); } //redirect vers youtube
-
-
-
-
-
-
 
 
 
