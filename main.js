@@ -24,7 +24,7 @@ myImage.addEventListener('click', function() {
 });
 
 
-
+let mypage=document.querySelector('html');
 let myButton = document.getElementById('button1');    //reference sur le bouton crée
 let myHeading = document.querySelector('h1');      //reference sur le titre de la page
 
@@ -45,8 +45,6 @@ function setUserName() {
   myButton.addEventListener('click', function() {
     setUserName();
   });
-
-
 
 
 
