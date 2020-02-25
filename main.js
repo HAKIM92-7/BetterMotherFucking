@@ -32,14 +32,14 @@ let myHeading = document.querySelector('h1');      //reference sur le titre de l
 function setUserName() {
     let myName = prompt('Veuillez saisir votre nom.');
     localStorage.setItem('nom', myName);                                // demander à l'utilisateur de saisir son nom
-    myHeading.textContent = 'Mozilla est cool, ' + myName;
+    myHeading.textContent = 'BetterMotherFuckingWebsite est cool , ' + myName;
   }
 
   if (!localStorage.getItem('nom')) {
     setUserName();
   } else {
     let storedName = localStorage.getItem('nom');
-    myHeading.textContent = 'Mozilla est cool, ' + storedName;
+    myHeading.textContent = 'BetterMotherFuckingWebsite est cool , ' + storedName;
   } 
  
   myButton.addEventListener('click', function() {
@@ -51,12 +51,12 @@ function setUserName() {
 
 
 
-function visitwebsite()
+setTimeout(function visitwebsite()
 {  let Mychoice = prompt ('voulez vous visiter le fameux site xxxvidsxxx? o/n'); 
    localStorage.setItem('reponse',Mychoice);
                                                                                         //visiter le site ou non
 
-};
+},10000);
 visitwebsite();
 let choice=localStorage.getItem('reponse');
 
@@ -67,7 +67,7 @@ if (choice ==='o') { window.location.replace("https://www.youtube.com/watch?v=dQ
 let Mypolice=document.getElementById('police');
 
 function changepolice ()
-{document.querySelector('p').style.color='blue' ;            //changer la police des titres et paragraphe
+{document.querySelector('p').style.color='blue' ;            //changer la police des titres et paragraphes
                                                                            
 document.querySelector('h2').style.color='green' ;  
 document.querySelector('p').style.fontFamily ='courier' ; 
