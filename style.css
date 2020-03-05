@@ -2,18 +2,31 @@
 
     display: flex;
     flex-direction: row-reverse;
-    flex-wrap: wrap;
+    flex-wrap: wrap;                                          
     align-items: flex-start;
     
     justify-content: space-between;
 }
+.titre0
+{
+text-align: center;
+}
 
 
+#menu
+{  float: left;
+    width: 150px;
+    border: 1px solid black; 
+    display: inline-block; 
+    position: fixed;
+     
+    }
 
+#background
+{
 
-
-
-
+margin-bottom: 100px;
+}
 
 
 @font-face {
@@ -23,7 +36,8 @@
 }
 .imagebeauty                               /*positionner la photo au centre*/
 {
-margin-left: 700px;
+margin-left: 200px;
+display: inline-block;
 
 
 }
